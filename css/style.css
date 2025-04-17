@@ -7,6 +7,11 @@ header {
     justify-content: center;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -127,15 +132,29 @@ li {
     background-color: #009933;
     color: white;
     justify-content: space-around;
+    border-radius: 10px;
+    width: 90dvh;
+}
+
+.marcacao{
+    display: flex;
+    justify-content: space-around;
 }
 
 .livro{
     width: 280px;
+    font-size: 1.2rem;
 }
 
 .concluido{
     padding: 10px;
     background-color: #007326;
-    width: 80px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
 
+.materiabio{
+    margin-left: 68px;
+    font-size: 1.2rem;
+    padding-top: 20px;
 }
