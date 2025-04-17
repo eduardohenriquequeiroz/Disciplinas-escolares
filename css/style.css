@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.inicio {
+    background-color: #FF0000;
+    margin-right: 50px;
+}
+
+.bio {
+    background-color: #0F9F3F;
+}
+
+.fis {
+    background-color: #96A2B8;
+}
+
+.geo {
+    background-color: #BE4D18;
+}
+
+.his {
+    background-color: #158653;
+}
+
+.ing {
+    background-color: #FC9CE9;
+}
+
+.lp {
+    background-color: #7F70EB;
+}
+
+.mat {
+    background-color: #FF7700;
+}
+
+.qui {
+    background-color: #0AFF3F;
+}
+
+.extras {
+    background-color: black;
+    margin-left: 50px;
+}
+
+.bemvindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5D7D7;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.voltar {
+    margin-left: 150px;
+}
+
+.tarefas {
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #F1E6AD;
+    width: 180dvh;
+    height: 200dvh;
+    border: 2px solid black;
+}
+
+.descricao {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nome {
+    margin-left: 80px;
+    font-size: 2rem;
+}
+
+.turma {
+    margin-right: 80px;
+    font-size: 1.5rem;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    width: 170dvh;
+    background-color: black;
+}
+
+.pendentes {
+    font-size: 1.3rem;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.disciplinas {
+    width: 100dvh;
+    height: 160dvh;
+    background-color: #F2F2F2;
+}
+
+.biologia{
+    background-color: #009933;
+    color: white;
+    justify-content: space-around;
+}
+
+.livro{
+    width: 280px;
+}
+
+.concluido{
+    padding: 10px;
+    background-color: #007326;
+    width: 80px;
+
+}
