@@ -2,12 +2,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+.materias {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin-top: 20px;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
 }
@@ -22,6 +25,7 @@ li {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
+    align-items: flex-end;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -76,7 +80,7 @@ li {
     align-items: center;
     background-color: #E5D7D7;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .voltar {
@@ -88,19 +92,21 @@ li {
     margin-top: 80px;
     background-color: #F1E6AD;
     width: 180dvh;
-    height: 200dvh;
-    border: 2px solid black;
+    height: 123dvh;
+    border: 3px solid black;
+    margin-bottom: 20dvh;
 }
 
 .descricao {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nome {
     margin-left: 80px;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .turma {
@@ -108,9 +114,13 @@ li {
     font-size: 1.5rem;
 }
 
-.linha {
+.line {
     display: flex;
     justify-content: center;
+}
+
+.linha {
+    display: flex;
     height: 1px;
     width: 170dvh;
     background-color: black;
@@ -122,39 +132,120 @@ li {
     margin-top: 40px;
 }
 
-.disciplinas {
-    width: 100dvh;
-    height: 160dvh;
-    background-color: #F2F2F2;
+.engloba {
+    display: flex;
+    justify-content: center;
 }
 
-.biologia{
+.disciplinas {
+    width: 152dvh;
+    height: 82dvh;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.ajustar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.biologia {
+    display: flex;
     background-color: #009933;
     color: white;
     justify-content: space-around;
+    align-items: center;
     border-radius: 10px;
-    width: 90dvh;
+    width: 120dvh;
 }
 
-.marcacao{
+.fisica {
+    display: flex;
+    background-color: #96A2B8;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 120dvh;
+}
+
+.matematica {
+    display: flex;
+    background-color: #FF7700;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 120dvh;
+}
+
+.marcacao {
     display: flex;
     justify-content: space-around;
 }
 
-.livro{
+.livro {
     width: 280px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
-.concluido{
+.concluido {
     padding: 10px;
     background-color: #007326;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
-.materiabio{
+.concluidofis {
+    padding: 10px;
+    background-color: #70798A;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.concluidomat {
+    padding: 10px;
+    background-color: #BF5900;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+
+.materiabio {
     margin-left: 68px;
-    font-size: 1.2rem;
-    padding-top: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #E5D7D7;
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    background-color: #B89F9F;
+    height: 30px;
 }
